@@ -3,15 +3,11 @@ from stellar_sdk import *
 
 server = Server("https://horizon.stellar.org")
 
-alb = Keypair.from_secret("SEKRETNASPERMA")
-
+alb = Keypair.from_secret("SECRET")
 base_fee = "1000"
 
 accs = [
-    "GDZPC43BX4VUTIQSYV4WNTDYDBEX27EKK55VIGFBY7GKUSKCKMRELUWL",
-    "GAHY6P4UWHVS4U2PI24RGMFOPN77RCGJT5CENPJOI3SZXP6FHN7TYOCU",
-    "SPERMA",
-    "CIPA"
+    ""
 ]
 
 for y in accs:
